@@ -1,0 +1,25 @@
+.AlbumRating {
+  margin: 0.5rem 0;
+  display: flex;
+  justify-content: space-between;
+  & .set-rating {
+    display: none;
+  }
+  &:hover .set-rating {
+    display: block;
+  }
+  &:hover .show-rating {
+    display: none;
+  }
+  & #reg-star-icon,
+  #full-star-icon,
+  #half-star-icon {
+    color: rgb(255, 183, 0);
+    font-size: 1.2rem;
+  }
+  & button {
+    border: none;
+    background-color: #ffffff;
+    cursor: pointer;
+  }
+}

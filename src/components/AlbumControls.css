@@ -1,0 +1,17 @@
+.AlbumControls {
+  height: 100px;
+  border-bottom: 1px solid #f5f2f8;
+  box-shadow: 0 2px 6px -4px rgba(25, 25, 34, 0.16);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  & .controls-wrapper {
+    flex: 1;
+    max-width: 1140px;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+  }
+}

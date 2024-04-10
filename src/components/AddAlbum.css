@@ -1,0 +1,17 @@
+.AddAlbum {
+  background-color: transparent;
+  border: 1px solid rgb(211, 211, 211);
+  padding: 6px 12px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+  &:hover {
+    background-color: rgb(203, 249, 203);
+    transition: 0.3s;
+  }
+  &:active {
+    background-color: rgb(185, 233, 185);
+  }
+}

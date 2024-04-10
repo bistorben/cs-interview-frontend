@@ -1,0 +1,16 @@
+.DeleteAlbum {
+  background-color: #ffffff;
+  padding: 1rem;
+  border: none;
+  border-radius: 50%;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  cursor: pointer;
+  &:hover {
+    background-color: rgb(244, 97, 97);
+  }
+  &:active {
+    background-color: rgb(246, 38, 38);
+  }
+}

@@ -1,0 +1,26 @@
+.AlbumItemFigure {
+  & figure {
+    box-shadow: 0 1px 6px rgba(25, 25, 34, 0.16);
+    border-radius: 5px;
+    position: relative;
+    & img {
+      width: 100%;
+      display: block;
+      border-radius: 5px;
+    }
+    & .img-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      border-radius: 5px;
+      background: rgba(223, 222, 222, 0.513);
+      display: none;
+      z-index: 1;
+    }
+    &:hover .img-overlay {
+      display: block;
+    }
+  }
+}
